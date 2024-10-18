@@ -2,39 +2,40 @@
     <a href="#rsdk">
         <img width="120" align="left" src="docs/assets/icon.png">
     </a>
-    RSDK Modding Wiki
+    RSDK Modding Wiki (Traduccion al español)
 </h1>
 
-Website with documentation, resources, and guides for Retro Engine modding, powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and inspired by [HedgeDocs](https://hedgedocs.com/).
+Este es un sitio web con documentacion, recursos y guias para el modding del Retro Engine, este proyecto funciona gracias a [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) y inspirado en [HedgeDocs](https://hedgedocs.com/).
 
 > [!WARNING]
-> This site is a heavy work-in-progress. Expect missing information and empty/placeholder pages. Everything is subject to change.
+> Este sitio (y la traduccion correspondiente) sigue en proceso. Puedes esperar informacion faltante o paginas vacias/placeholders. Todo esta sujeto a cambios.
 
-## Contributing
+## Contribuir
 
-This wiki is written in Markdown, just like GitHub's own Markdown files! One of the best ways to write Markdown text files is to use [Visual Studio Code](https://code.visualstudio.com/), which allows you to preview the page you are currently typing by pressing CTRL+Shift+V, making it easy to see how your page might look like on the website. For a more accurate look, you absolutely should setup the website locally by following the instructions in the [Testing](#testing) section.
+Esta wiki (y su traduccion) estan escritas en Markdown, como las de GitHub!. Una de las mejores maneras para escribir textos en formato Markdown es usar [Visual Studio Code](https://code.visualstudio.com/), con esta aplicacion podras ver una vista previa de la pagina que estas escribiendo precionando CTRL+Shift+V. Para que se vea mas exacto, deberias configurar el sitio localmente siguiendo las instrucciones en la seccion [Probando](#probando).
 
-We appreciate every contribution that's made to the wiki, as every single one helps the modding community to grow and make better mods.
+Apreciamos cada contribucion hecha para la wiki, cada aporte ayuda a que la comunidad de modding aumente y que se puedan hacer mejores mods.
 
-### Adding New Pages
 
-Adding a new page to the wiki is easy! After creating a fork of this repository, edit it by following these steps:
-1. Add your page in the appropriate place by editing the `mkdocs.yml` file. You can even create new sections if you don't see one that fits your needs!
-2. Create a Markdown file in the location you specified in the previous step, and that's it!
+### Añadiendo nuevas paginas
 
-After you added your contributions, open a pull request, and if approved, your page will be shown in the wiki for the whole world to see.
+Añadir una pagina a la wiki es facil! luego de crear una difurcacion [de el repositorio original](https://github.com/RSDKModding/RSDK-Modding-Wiki), editalo siguiendo estos pasos:
+1. Añade tu pagina en el lugar correcto editando el archivo `mkdocs.yml`. Incluso puedes crear nuevas secciones en tal caso no veas una seccion que se adecue a tus necesidades!
+2. Crea un archivo con formato Markdown en la ubicacion que especificaste en el paso anterior, yahi tienes!
+
+Luego de hacer tus contribuciones, abre un pull request, y si es aprobado, tu pagina se mostrara en la wiki para que todo el mundo lo vea.
 
 ### Material for MkDocs features
 
 Since this wiki uses Material for MkDocs, you might want to check its [references](https://squidfunk.github.io/mkdocs-material/reference/) to better understand its features. You can use plain Markdown, but you can also use admonitions, buttons, and even icons from Font Awesome.
 
-### Testing
+### Probando
 
-You can test your changes locally before committing. To do so:
+Puedes probar los cambios que hisiste antes de subirlos en el pull request solo haciendo estos pasos:
 
-- Install [Python](https://www.python.org/downloads/)
-- Install Material For MkDocs and the necessary plug-ins: `pip install mkdocs-material mkdocs-glightbox --upgrade`
-- Serve webpage locally: `mkdocs serve`
-    - You can also build a static site instead, using `mkdocs build`
+- Descarga y luego instala [Python](https://www.python.org/downloads/)
+- Descarga y luego instala Material For MkDocs y sus plug-ins necesarios: `pip install mkdocs-material mkdocs-glightbox --upgrade`
+- Sube tu pagina Localmente: `mkdocs serve`
+    - Tambien puedes crear una pagina estatica usando el comando `mkdocs build`
 
-The served webpage will auto refresh whenever you make changes to the files.
+La version subida localmente se actualizara automaticamente al hacer algun cambio en los archivos.
